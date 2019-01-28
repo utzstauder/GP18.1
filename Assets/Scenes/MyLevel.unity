@@ -1002,7 +1002,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4651122014648358, guid: 13e8abe02ecf51244a977d695b76e8d8, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 1
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 4651122014648358, guid: 13e8abe02ecf51244a977d695b76e8d8, type: 2}
       propertyPath: m_LocalPosition.z
@@ -1027,37 +1027,6 @@ Prefab:
     - target: {fileID: 4651122014648358, guid: 13e8abe02ecf51244a977d695b76e8d8, type: 2}
       propertyPath: m_RootOrder
       value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 114341721613915856, guid: 13e8abe02ecf51244a977d695b76e8d8,
-        type: 2}
-      propertyPath: prefab
-      value: 
-      objectReference: {fileID: 1285218320450786, guid: 01279e9096d36e4448c4d8337a894359,
-        type: 2}
-    - target: {fileID: 114341721613915856, guid: 13e8abe02ecf51244a977d695b76e8d8,
-        type: 2}
-      propertyPath: amount
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 114341721613915856, guid: 13e8abe02ecf51244a977d695b76e8d8,
-        type: 2}
-      propertyPath: offset.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114341721613915856, guid: 13e8abe02ecf51244a977d695b76e8d8,
-        type: 2}
-      propertyPath: amountPerRow
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 114341721613915856, guid: 13e8abe02ecf51244a977d695b76e8d8,
-        type: 2}
-      propertyPath: rowOffset.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114341721613915856, guid: 13e8abe02ecf51244a977d695b76e8d8,
-        type: 2}
-      propertyPath: columnOffset.y
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 13e8abe02ecf51244a977d695b76e8d8, type: 2}
