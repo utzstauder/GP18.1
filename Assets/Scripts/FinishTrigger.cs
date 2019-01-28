@@ -3,18 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class FinishTrigger : MonoBehaviour {
+public class FinishTrigger : MonoBehaviour, ITriggerable {
 
-    //private void OnTriggerEnter(Collider other)
-    //{
-    //    if (other.gameObject.CompareTag("Player"))
-    //    {
-    //        // load next level
-    //        LoadNextScene();
-    //    }
-    //}
+    public void Trigger()
+    {
+        LoadNextScene();
+    }
 
-    public void LoadNextScene()
+    private void LoadNextScene()
     {
         // get current scene
         Scene currentScene = SceneManager.GetActiveScene();
